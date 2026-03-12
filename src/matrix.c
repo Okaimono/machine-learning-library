@@ -1,6 +1,6 @@
 #include "matrix.h"
 
-#include <stdlib.h> // malloc, calloc, free
+#include <stdlib.h>
 
 matrix* mat_create(u32 rows, u32 cols) {
     matrix* mat = (matrix*)malloc(sizeof(matrix));
